@@ -1,0 +1,31 @@
+.section3{
+    display: flex;
+    background-color: grey;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form_boletin{
+   text-align: center;
+}
+.form_boletin-legend{
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+.form_boletin-email{
+    font-size: large;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 20px;
+    
+}
+.button{
+    background-color: rgb(20, 243, 169);
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 10px;
+    font-size:medium;
+    width: 40%;
+}

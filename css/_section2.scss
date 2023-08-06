@@ -1,0 +1,35 @@
+.section2{
+    display: grid;
+    grid-template-columns: repeat(1,50%) ;
+    grid-template-rows: auto;
+    @include big ( 100%);
+    height: auto;
+    border: 2px solid black;
+    justify-content: center;
+    padding-bottom: 30px;
+  
+}
+.section2_article{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.section2_article-img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+.section_article-ts{
+    text-align: center;
+    font-size: medium;
+    text-align: center;
+    font-style: strong;
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+.section_article-text{
+    font-size: medium;
+    text-align: center;
+    font-style: strong;
+    font-size: x-large;
+}
