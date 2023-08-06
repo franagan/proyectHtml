@@ -1,0 +1,31 @@
+.header_registry {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 193, 193);
+    max-width: 100%;
+    height: auto;
+}
+.registry {
+    font-size: xx-large;
+}
+.formula {
+    height: 50vh;
+    padding-top: 230px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    padding-bottom: 10%;
+    &_fieldset {
+        justify-content: center;
+    }
+}
+.formula_fieldset-legend {
+    display: block;
+    text-align: left;
+    padding: 10px 30px 10px 30px;
+}
+.div_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}

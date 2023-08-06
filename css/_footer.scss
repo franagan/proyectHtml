@@ -1,0 +1,20 @@
+.footer{
+    height: auto;
+    display: flex;
+    background-color: $footer-color;
+    justify-content: center;
+    @include big(100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    &-list-text{
+        text-align: center;
+        text-decoration: none;
+        gap: 50px;
+        }
+    }

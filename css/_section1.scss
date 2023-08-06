@@ -1,0 +1,11 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    @include big ( 100%);
+    padding-top: 210px;
+}
+.section_img{
+    max-width: 100%;
+    height:80%;
+    justify-content: center;
+}
